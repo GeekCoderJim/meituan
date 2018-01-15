@@ -14,6 +14,7 @@
 		C04959E7200C938300463441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04959E5200C938300463441 /* LaunchScreen.storyboard */; };
 		C04959EA200C938300463441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04959E9200C938300463441 /* main.m */; };
 		C04959F4200C938300463441 /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04959F3200C938300463441 /* meituanUITests.m */; };
+		C0495A00200C93F800463441 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C04959FF200C93F800463441 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C04959EF200C938300463441 /* meituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04959F3200C938300463441 /* meituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanUITests.m; sourceTree = "<group>"; };
 		C04959F5200C938300463441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04959FE200C93F800463441 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C04959FF200C93F800463441 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C04959D9200C938300463441 /* meituan */ = {
 			isa = PBXGroup;
 			children = (
+				C04959FE200C93F800463441 /* Person.h */,
+				C04959FF200C93F800463441 /* Person.m */,
 				C04959DA200C938300463441 /* AppDelegate.h */,
 				C04959DB200C938300463441 /* AppDelegate.m */,
 				C04959DD200C938300463441 /* ViewController.h */,
@@ -207,6 +212,7 @@
 			files = (
 				C04959DF200C938300463441 /* ViewController.m in Sources */,
 				C04959EA200C938300463441 /* main.m in Sources */,
+				C0495A00200C93F800463441 /* Person.m in Sources */,
 				C04959DC200C938300463441 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
