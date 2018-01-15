@@ -15,6 +15,7 @@
 		C04959EA200C938300463441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04959E9200C938300463441 /* main.m */; };
 		C04959F4200C938300463441 /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04959F3200C938300463441 /* meituanUITests.m */; };
 		C0495A00200C93F800463441 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C04959FF200C93F800463441 /* Person.m */; };
+		C0495A03200C947A00463441 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C0495A02200C947A00463441 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C04959F5200C938300463441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C04959FE200C93F800463441 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		C04959FF200C93F800463441 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C0495A01200C947A00463441 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C0495A02200C947A00463441 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				C04959E5200C938300463441 /* LaunchScreen.storyboard */,
 				C04959E8200C938300463441 /* Info.plist */,
 				C04959E9200C938300463441 /* main.m */,
+				C0495A01200C947A00463441 /* Student.h */,
+				C0495A02200C947A00463441 /* Student.m */,
 			);
 			path = meituan;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			files = (
 				C04959DF200C938300463441 /* ViewController.m in Sources */,
 				C04959EA200C938300463441 /* main.m in Sources */,
+				C0495A03200C947A00463441 /* Student.m in Sources */,
 				C0495A00200C93F800463441 /* Person.m in Sources */,
 				C04959DC200C938300463441 /* AppDelegate.m in Sources */,
 			);
